@@ -6,27 +6,6 @@
 
 // 32679 -> 6
 
-/*
-int i;
-Console.Write("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-
-if (num > 99)
-{
-    int x = num;
-    for (i = 0; x > 0; i++)
-    {
-        x = x / 10;        
-    }
-    Console.WriteLine($"{x} значное число");
-    Console.WriteLine($"Третья цифра числа: {num / (10 ^ i) * 1000 % 10}");
-}
-else
-{
-    Console.WriteLine("Третьей цифры нет");
-}
-*/
-
 
 int znak;
 Console.Write("Введите число: ");
